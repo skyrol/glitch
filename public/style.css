@@ -1,0 +1,88 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+#view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+.view-source2 {
+      position: fixed;
+      display: block;
+      left: 0;
+      top: 0;
+      margin-left: 40px;
+      margin-top: 40px;
+      z-index: 900;
+    }
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.ribbon {
+  width: 100%;
+  height: 40vh;
+  background-color: #E65100;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.main {
+  margin-top: -35vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.container {
+  max-width: 1600px;
+  width: calc(100% - 16px);
+  margin: 0 auto;
+}
+
+.content {
+  border-radius: 4px;
+  padding: 80px 56px;
+  margin-bottom: 80px;
+}
+
+.card-wide.mdl-card {
+  width: calc(100% - 16px);
+}
+.card-wide > .mdl-card__title {
+  color: #fff;
+  height: 400px;
+  background: url('https://cdn.glitch.com/6c2da606-6831-4dae-bbf1-aa7d85bcb6a3%2FGTY_tesla_kab_150316_12x5_1600.jpg?1497582343393') center / cover;
+}
+.card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-card-main{
+  height: 512px;
+  border-radius: 4px;
+  background: url('https://cdn.glitch.com/6c2da606-6831-4dae-bbf1-aa7d85bcb6a3%2Felon-musk-AI-04-17-01.jpg?1497564223584') center / cover;
+}
+
+.layout.is-small-screen .content {
+  padding: 40px 28px;
+}
+
+.content h3 {
+  margin-top: 48px;
+}
+
+.mdl-button--accent {
+  background-color: #E65100 !important;
+}
+
+.footer {
+  padding-left: 40px;
+}
