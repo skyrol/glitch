@@ -17,9 +17,9 @@
       position: fixed;
       display: block;
       left: 0;
-      top: 0;
+      bottom: 0;
       margin-left: 40px;
-      margin-top: 40px;
+      margin-bottom: 40px;
       z-index: 900;
     }
 body {
@@ -61,9 +61,6 @@ body {
   height: 400px;
   background: url('https://cdn.glitch.com/6c2da606-6831-4dae-bbf1-aa7d85bcb6a3%2FGTY_tesla_kab_150316_12x5_1600.jpg?1497582343393') center / cover;
 }
-.card-wide > .mdl-card__menu {
-  color: #fff;
-}
 
 .mdl-card-main{
   height: 512px;
@@ -79,10 +76,28 @@ body {
   margin-top: 48px;
 }
 
+h1 {
+  text-align: center;
+}
+
 .mdl-button--accent {
   background-color: #E65100 !important;
 }
 
 .footer {
   padding-left: 40px;
+}
+
+/* styles */
+/* called by your view template */
+* {
+  box-sizing: border-box;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+  cursor: pointer;
 }
